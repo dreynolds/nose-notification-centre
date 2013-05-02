@@ -2,10 +2,8 @@ import os
 from setuptools import setup
 
 
-
-
 setup(name='NCPlugin',
-    version='0.2',
+    version='0.3',
     author='David Reynolds',
     author_email='david@reynoldsfamily.org.uk',
     description=('Nose plugin to raise an OS X Notification'
