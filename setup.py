@@ -18,7 +18,7 @@ setup(name='NCPlugin',
     py_modules=['ncplugin'],
     platforms='MacOS X',
     install_requires=[
-        'pync == 1.1',
+        'pync == 1.4',
     ],
     entry_points = {
         'nose.plugins.0.10': [
