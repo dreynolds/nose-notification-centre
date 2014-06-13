@@ -5,6 +5,8 @@ python:
   - "3.2"
   - "3.3"
 # command to install dependencies
-install: "pip install -r requirements.txt"
+install:
+	- "pip install -q pync==1.4"
+	- "python setup.py -q install"
 # command to run tests
 script: nosetests
